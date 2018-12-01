@@ -18,4 +18,3 @@ create table if not exists pokemon(
  
 
 
-select * from entrenador;

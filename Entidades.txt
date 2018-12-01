@@ -1,0 +1,36 @@
+Listas de entidades:
+	Usuario:
+		- Administrador
+		- Cliente (Compañias)
+		- Asistentes(Empleadas de la empresa)
+	Documentos(XML):
+		- Factura
+		- Nota Credito
+		- Nota Debito
+	RepresentanteLegal
+	Empleados
+	Compañias
+	Registro
+	Cuentas(etiquetas)
+	Rol(Empleados)
+	Reporte(Genera Documentos en Excel)
+	Banco
+	Cuenta Bancaria
+	Movimientos:
+		- Deposito
+		- Cheque
+		- Egreso de Caja chica
+	Conciliacion Bancaria(Revisar)
+	Revisar:
+		- Provincia, Pais
+		- Surcursal
+		- Plan de Pago
+		- Motivo
+		- Servicio
+		- Retenciones
+		- Proveedores
+		- Transaccion
+		- Anticipo
+		- Provision
+	Asiento Diario
+ 	Periodo

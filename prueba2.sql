@@ -1,5 +1,7 @@
 create database if not exists pokedex;
 use pokedex;
+
+
 create table if not exists entrenador(
 	id int auto_increment primary key,
     nombre varchar(20) ,

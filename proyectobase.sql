@@ -2,6 +2,7 @@ create database contabilidadfarra;
 use  contabilidadfarra;
 
 create table usuario (
+user_id int auto_increment,
 user_nickname varchar(30),
 user_nombres  varchar(50),
 usar_clave    varchar(20),
@@ -16,7 +17,7 @@ pv_estado  varchar(10),
 primary key (pv_codigo)
 );
 
-create table paises (
+create table pais (
 p_codigo   varchar(10),
 p_nombre   varchar(50),
 p_estado   varchar(20),
@@ -41,7 +42,7 @@ primary key (cp_codigo),
 foreign key (cp_provincia_id)
 references provincia (pv_codigo),
 foreign key (cp_pais)
-references paises (p_codigo),
+references pais (p_codigo),
 foreign key (cp_usuario)
 references usuario (user_nickname)
 );
